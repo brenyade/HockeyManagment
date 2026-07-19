@@ -1,0 +1,4836 @@
+{
+"ANA": [
+{
+"first": "Leo",
+"last": "Carlsson",
+"pos": "C",
+"age": 21
+},
+{
+"first": "Judd",
+"last": "Caulfield",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Nathan",
+"last": "Gaucher",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Cutter",
+"last": "Gauthier",
+"pos": "LW",
+"age": 22
+},
+{
+"first": "Mikael",
+"last": "Granlund",
+"pos": "C",
+"age": 34
+},
+{
+"first": "A.J.",
+"last": "Greer",
+"pos": "LW",
+"age": 29
+},
+{
+"first": "James",
+"last": "Hamblin",
+"pos": "LW",
+"age": 27
+},
+{
+"first": "Alex",
+"last": "Killorn",
+"pos": "LW",
+"age": 36
+},
+{
+"first": "Chris",
+"last": "Kreider",
+"pos": "LW",
+"age": 35
+},
+{
+"first": "Jeff",
+"last": "Malott",
+"pos": "LW",
+"age": 29
+},
+{
+"first": "Nico",
+"last": "Myatovic",
+"pos": "LW",
+"age": 21
+},
+{
+"first": "Ryan",
+"last": "Poehling",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Beckett",
+"last": "Sennecke",
+"pos": "RW",
+"age": 20
+},
+{
+"first": "Troy",
+"last": "Terry",
+"pos": "RW",
+"age": 28
+},
+{
+"first": "Frank",
+"last": "Vatrano",
+"pos": "RW",
+"age": 32
+},
+{
+"first": "Anton",
+"last": "Wahlberg",
+"pos": "C",
+"age": 21
+},
+{
+"first": "Tim",
+"last": "Washe",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Drew",
+"last": "Helleson",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Tyson",
+"last": "Hinds",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Nick",
+"last": "Jensen",
+"pos": "D",
+"age": 35
+},
+{
+"first": "Jackson",
+"last": "LaCombe",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Pavel",
+"last": "Mintyukov",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Travis",
+"last": "Mitchell",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Ian",
+"last": "Moore",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Corey",
+"last": "Schueneman",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Noah",
+"last": "Warren",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Jett",
+"last": "Woo",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Laurent",
+"last": "Brossoit",
+"pos": "G",
+"age": 33
+},
+{
+"first": "Lukas",
+"last": "Dostal",
+"pos": "G",
+"age": 26
+},
+{
+"first": "Ville",
+"last": "Husso",
+"pos": "G",
+"age": 31
+}
+],
+"BOS": [
+{
+"first": "Michael",
+"last": "Eyssimont",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Morgan",
+"last": "Geekie",
+"pos": "C",
+"age": 27
+},
+{
+"first": "James",
+"last": "Hagens",
+"pos": "C",
+"age": 19
+},
+{
+"first": "Tanner",
+"last": "Jeannot",
+"pos": "LW",
+"age": 29
+},
+{
+"first": "Mark",
+"last": "Kastelic",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Marat",
+"last": "Khusnutdinov",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Sean",
+"last": "Kuraly",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Elias",
+"last": "Lindholm",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Fraser",
+"last": "Minten",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Casey",
+"last": "Mittelstadt",
+"pos": "C",
+"age": 27
+},
+{
+"first": "David",
+"last": "Pastrnak",
+"pos": "RW",
+"age": 30
+},
+{
+"first": "JJ",
+"last": "Peterka",
+"pos": "RW",
+"age": 24
+},
+{
+"first": "Alex",
+"last": "Steeves",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Pavel",
+"last": "Zacha",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Jonathan",
+"last": "Aspirot",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Will",
+"last": "Borgen",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Connor",
+"last": "Clifton",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Jordan",
+"last": "Harris",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Henri",
+"last": "Jokiharju",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Hampus",
+"last": "Lindholm",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Mason",
+"last": "Lohrei",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Charlie",
+"last": "McAvoy",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Nikita",
+"last": "Zadorov",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Jeremy",
+"last": "Swayman",
+"pos": "G",
+"age": 27
+}
+],
+"BUF": [
+{
+"first": "Zach",
+"last": "Benson",
+"pos": "LW",
+"age": 21
+},
+{
+"first": "Sam",
+"last": "Carrick",
+"pos": "C",
+"age": 34
+},
+{
+"first": "Justin",
+"last": "Danforth",
+"pos": "RW",
+"age": 33
+},
+{
+"first": "Josh",
+"last": "Doan",
+"pos": "RW",
+"age": 24
+},
+{
+"first": "Riley",
+"last": "Fiddler-Schultz",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Konsta",
+"last": "Helenius",
+"pos": "C",
+"age": 20
+},
+{
+"first": "Tyson",
+"last": "Kozak",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Peyton",
+"last": "Krebs",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Jiri",
+"last": "Kulich",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Beck",
+"last": "Malenstyn",
+"pos": "LW",
+"age": 28
+},
+{
+"first": "Ryan",
+"last": "McLeod",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Josh",
+"last": "Norris",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Noah",
+"last": "Ostlund",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Jack",
+"last": "Quinn",
+"pos": "RW",
+"age": 24
+},
+{
+"first": "Conor",
+"last": "Sheary",
+"pos": "LW",
+"age": 34
+},
+{
+"first": "Tage",
+"last": "Thompson",
+"pos": "C",
+"age": 28
+},
+{
+"first": "Jason",
+"last": "Zucker",
+"pos": "LW",
+"age": 34
+},
+{
+"first": "Louis",
+"last": "Crevier",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Rasmus",
+"last": "Dahlin",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Dennis",
+"last": "Gilbert",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Ryan",
+"last": "Johnson",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Vsevolod",
+"last": "Komarov",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Zach",
+"last": "Metsa",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Radim",
+"last": "Mrtka",
+"pos": "D",
+"age": 19
+},
+{
+"first": "Owen",
+"last": "Power",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Mattias",
+"last": "Samuelsson",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Conor",
+"last": "Timmins",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Olen",
+"last": "Zellweger",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Colten",
+"last": "Ellis",
+"pos": "G",
+"age": 25
+},
+{
+"first": "Ukko-Pekka",
+"last": "Luukkonen",
+"pos": "G",
+"age": 27
+},
+{
+"first": "Alex",
+"last": "Lyon",
+"pos": "G",
+"age": 33
+},
+{
+"first": "Matt",
+"last": "Villalta",
+"pos": "G",
+"age": 27
+}
+],
+"CAR": [
+{
+"first": "Sebastian",
+"last": "Aho",
+"pos": "C",
+"age": 28
+},
+{
+"first": "Jackson",
+"last": "Blake",
+"pos": "RW",
+"age": 22
+},
+{
+"first": "William",
+"last": "Carrier",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Nicolas",
+"last": "Deslauriers",
+"pos": "LW",
+"age": 35
+},
+{
+"first": "Nikolaj",
+"last": "Ehlers",
+"pos": "LW",
+"age": 30
+},
+{
+"first": "Taylor",
+"last": "Hall",
+"pos": "LW",
+"age": 34
+},
+{
+"first": "Mark",
+"last": "Jankowski",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Seth",
+"last": "Jarvis",
+"pos": "RW",
+"age": 24
+},
+{
+"first": "Jesperi",
+"last": "Kotkaniemi",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Jordan",
+"last": "Martinook",
+"pos": "LW",
+"age": 33
+},
+{
+"first": "Eric",
+"last": "Robinson",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Jordan",
+"last": "Staal",
+"pos": "C",
+"age": 37
+},
+{
+"first": "Logan",
+"last": "Stankoven",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Andrei",
+"last": "Svechnikov",
+"pos": "RW",
+"age": 26
+},
+{
+"first": "Jalen",
+"last": "Chatfield",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Shayne",
+"last": "Gostisbehere",
+"pos": "D",
+"age": 33
+},
+{
+"first": "K'Andre",
+"last": "Miller",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Alexander",
+"last": "Nikishin",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Jaccob",
+"last": "Slavin",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Sean",
+"last": "Walker",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Brandon",
+"last": "Bussi",
+"pos": "G",
+"age": 28
+},
+{
+"first": "Pyotr",
+"last": "Kochetkov",
+"pos": "G",
+"age": 27
+}
+],
+"CBJ": [
+{
+"first": "Charlie",
+"last": "Coyle",
+"pos": "C",
+"age": 34
+},
+{
+"first": "Adam",
+"last": "Fantilli",
+"pos": "C",
+"age": 21
+},
+{
+"first": "Conor",
+"last": "Garland",
+"pos": "RW",
+"age": 30
+},
+{
+"first": "Kent",
+"last": "Johnson",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Ryan",
+"last": "Lomberg",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Isac",
+"last": "Lundestr\u00f6m",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Kirill",
+"last": "Marchenko",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Sean",
+"last": "Monahan",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Valeri",
+"last": "Nichushkin",
+"pos": "RW",
+"age": 31
+},
+{
+"first": "Mathieu",
+"last": "Olivier",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Cole",
+"last": "Sillinger",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Dmitri",
+"last": "Voronkov",
+"pos": "LW",
+"age": 25
+},
+{
+"first": "Miles",
+"last": "Wood",
+"pos": "LW",
+"age": 30
+},
+{
+"first": "Jake",
+"last": "Christiansen",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Dante",
+"last": "Fabbro",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Erik",
+"last": "Gudbranson",
+"pos": "D",
+"age": 34
+},
+{
+"first": "Denton",
+"last": "Mateychuk",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Ivan",
+"last": "Provorov",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Damon",
+"last": "Severson",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Zach",
+"last": "Werenski",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Jet",
+"last": "Greaves",
+"pos": "G",
+"age": 25
+},
+{
+"first": "Elvis",
+"last": "Merzlikins",
+"pos": "G",
+"age": 32
+}
+],
+"CGY": [
+{
+"first": "Mikael",
+"last": "Backlund",
+"pos": "C",
+"age": 37
+},
+{
+"first": "Matt",
+"last": "Coronato",
+"pos": "RW",
+"age": 23
+},
+{
+"first": "Joel",
+"last": "Farabee",
+"pos": "LW",
+"age": 26
+},
+{
+"first": "Morgan",
+"last": "Frost",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Matvei",
+"last": "Gridin",
+"pos": "RW",
+"age": 20
+},
+{
+"first": "Tyson",
+"last": "Gross",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Samuel",
+"last": "Honzek",
+"pos": "LW",
+"age": 21
+},
+{
+"first": "Jonathan",
+"last": "Huberdeau",
+"pos": "LW",
+"age": 33
+},
+{
+"first": "Ben",
+"last": "Jones",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Rory",
+"last": "Kerins",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Adam",
+"last": "Klapka",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Martin",
+"last": "Pospisil",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Yegor",
+"last": "Sharangovich",
+"pos": "C",
+"age": 28
+},
+{
+"first": "Ryan",
+"last": "Strome",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Aydar",
+"last": "Suniev",
+"pos": "LW",
+"age": 21
+},
+{
+"first": "Maxim",
+"last": "Tsyplakov",
+"pos": "RW",
+"age": 27
+},
+{
+"first": "Connor",
+"last": "Zary",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Kevin",
+"last": "Bahl",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Hunter",
+"last": "Brzustewicz",
+"pos": "D",
+"age": 21
+},
+{
+"first": "Joel",
+"last": "Hanley",
+"pos": "D",
+"age": 35
+},
+{
+"first": "Yan",
+"last": "Kuznetsov",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Jake",
+"last": "Middleton",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Simon",
+"last": "Nemec",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Brayden",
+"last": "Pachal",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Zayne",
+"last": "Parekh",
+"pos": "D",
+"age": 20
+},
+{
+"first": "Zach",
+"last": "Whitecloud",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Abram",
+"last": "Wiebe",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Devin",
+"last": "Cooley",
+"pos": "G",
+"age": 29
+},
+{
+"first": "Dustin",
+"last": "Wolf",
+"pos": "G",
+"age": 25
+}
+],
+"CHI": [
+{
+"first": "Connor",
+"last": "Bedard",
+"pos": "C",
+"age": 21
+},
+{
+"first": "Tyler",
+"last": "Bertuzzi",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Sacha",
+"last": "Boisvert",
+"pos": "C",
+"age": 20
+},
+{
+"first": "Ryan",
+"last": "Donato",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Anton",
+"last": "Frondell",
+"pos": "C",
+"age": 19
+},
+{
+"first": "Ryan",
+"last": "Greene",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Jordan",
+"last": "Greenway",
+"pos": "LW",
+"age": 29
+},
+{
+"first": "Nick",
+"last": "Lardis",
+"pos": "LW",
+"age": 21
+},
+{
+"first": "Andrew",
+"last": "Mangiapane",
+"pos": "LW",
+"age": 30
+},
+{
+"first": "Oliver",
+"last": "Moore",
+"pos": "C",
+"age": 21
+},
+{
+"first": "Frank",
+"last": "Nazar",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Landon",
+"last": "Slaggert",
+"pos": "LW",
+"age": 24
+},
+{
+"first": "Cole",
+"last": "Smith",
+"pos": "LW",
+"age": 30
+},
+{
+"first": "Teuvo",
+"last": "Teravainen",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Dominic",
+"last": "Toninato",
+"pos": "C",
+"age": 32
+},
+{
+"first": "Bowen",
+"last": "Byram",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Ian",
+"last": "Cole",
+"pos": "D",
+"age": 37
+},
+{
+"first": "Ethan",
+"last": "Del Mastro",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Wyatt",
+"last": "Kaiser",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Kevin",
+"last": "Korchinski",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Artyom",
+"last": "Levshunov",
+"pos": "D",
+"age": 20
+},
+{
+"first": "Sam",
+"last": "Rinzel",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Alex",
+"last": "Vlasic",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Spencer",
+"last": "Knight",
+"pos": "G",
+"age": 25
+},
+{
+"first": "Arvid",
+"last": "Soderblom",
+"pos": "G",
+"age": 26
+}
+],
+"COL": [
+{
+"first": "Zakhar",
+"last": "Bardakov",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Vinnie",
+"last": "Hinostroza",
+"pos": "C",
+"age": 32
+},
+{
+"first": "Nazem",
+"last": "Kadri",
+"pos": "C",
+"age": 35
+},
+{
+"first": "Parker",
+"last": "Kelly",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Gabriel",
+"last": "Landeskog",
+"pos": "LW",
+"age": 33
+},
+{
+"first": "Artturi",
+"last": "Lehkonen",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Nathan",
+"last": "MacKinnon",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Martin",
+"last": "Necas",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Brock",
+"last": "Nelson",
+"pos": "C",
+"age": 34
+},
+{
+"first": "Logan",
+"last": "O'Connor",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Nicolas",
+"last": "Roy",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Jaden",
+"last": "Schwartz",
+"pos": "C",
+"age": 34
+},
+{
+"first": "Fedor",
+"last": "Svechkov",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Brent",
+"last": "Burns",
+"pos": "D",
+"age": 41
+},
+{
+"first": "Noah",
+"last": "Juulsen",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Brett",
+"last": "Kulak",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Cale",
+"last": "Makar",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Sam",
+"last": "Malinski",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Josh",
+"last": "Manson",
+"pos": "D",
+"age": 34
+},
+{
+"first": "Devon",
+"last": "Toews",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Mackenzie",
+"last": "Blackwood",
+"pos": "G",
+"age": 29
+},
+{
+"first": "Scott",
+"last": "Wedgewood",
+"pos": "G",
+"age": 33
+}
+],
+"DAL": [
+{
+"first": "Jamie",
+"last": "Benn",
+"pos": "LW",
+"age": 37
+},
+{
+"first": "Colin",
+"last": "Blackwell",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Oskar",
+"last": "B\u00e4ck",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Matt",
+"last": "Duchene",
+"pos": "C",
+"age": 35
+},
+{
+"first": "Radek",
+"last": "Faksa",
+"pos": "C",
+"age": 32
+},
+{
+"first": "Roope",
+"last": "Hintz",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Justin",
+"last": "Hryckowian",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Arttu",
+"last": "Hyry",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Wyatt",
+"last": "Johnston",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Joel",
+"last": "Kiviranta",
+"pos": "LW",
+"age": 30
+},
+{
+"first": "Mikko",
+"last": "Rantanen",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Jason",
+"last": "Robertson",
+"pos": "LW",
+"age": 26
+},
+{
+"first": "Tyler",
+"last": "Seguin",
+"pos": "C",
+"age": 34
+},
+{
+"first": "Sam",
+"last": "Steel",
+"pos": "C",
+"age": 28
+},
+{
+"first": "Lian",
+"last": "Bichsel",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Kyle",
+"last": "Capobianco",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Thomas",
+"last": "Harley",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Miro",
+"last": "Heiskanen",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Esa",
+"last": "Lindell",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Nils",
+"last": "Lundkvist",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Tyler",
+"last": "Myers",
+"pos": "D",
+"age": 36
+},
+{
+"first": "Casey",
+"last": "DeSmith",
+"pos": "G",
+"age": 34
+},
+{
+"first": "Jake",
+"last": "Oettinger",
+"pos": "G",
+"age": 27
+}
+],
+"DET": [
+{
+"first": "Mason",
+"last": "Appleton",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Viktor",
+"last": "Arvidsson",
+"pos": "LW",
+"age": 33
+},
+{
+"first": "J.T.",
+"last": "Compher",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Andrew",
+"last": "Copp",
+"pos": "C",
+"age": 32
+},
+{
+"first": "Alex",
+"last": "DeBrincat",
+"pos": "RW",
+"age": 28
+},
+{
+"first": "Emmitt",
+"last": "Finnie",
+"pos": "C",
+"age": 21
+},
+{
+"first": "Marco",
+"last": "Kasper",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Keegan",
+"last": "Kolesar",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Dylan",
+"last": "Larkin",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Michael",
+"last": "Rasmussen",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Lucas",
+"last": "Raymond",
+"pos": "LW",
+"age": 24
+},
+{
+"first": "Jacob",
+"last": "Bernard-Docker",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Jacob",
+"last": "Bryson",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Ben",
+"last": "Chiarot",
+"pos": "D",
+"age": 35
+},
+{
+"first": "Simon",
+"last": "Edvinsson",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Justin",
+"last": "Faulk",
+"pos": "D",
+"age": 34
+},
+{
+"first": "Albert",
+"last": "Johansson",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Moritz",
+"last": "Seider",
+"pos": "D",
+"age": 25
+},
+{
+"first": "John",
+"last": "Gibson",
+"pos": "G",
+"age": 33
+},
+{
+"first": "Daniil",
+"last": "Tarasov",
+"pos": "G",
+"age": 27
+}
+],
+"EDM": [
+{
+"first": "Colton",
+"last": "Dach",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Jason",
+"last": "Dickinson",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Leon",
+"last": "Draisaitl",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Trent",
+"last": "Frederic",
+"pos": "C",
+"age": 28
+},
+{
+"first": "Zach",
+"last": "Hyman",
+"pos": "LW",
+"age": 34
+},
+{
+"first": "Mattias",
+"last": "Janmark",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Max",
+"last": "Jones",
+"pos": "LW",
+"age": 28
+},
+{
+"first": "Mathieu",
+"last": "Joseph",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Kasperi",
+"last": "Kapanen",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Connor",
+"last": "McDavid",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Ryan",
+"last": "Nugent-Hopkins",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Vasily",
+"last": "Podkolzin",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Josh",
+"last": "Samanski",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Matt",
+"last": "Savoie",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Evan",
+"last": "Bouchard",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Mattias",
+"last": "Ekholm",
+"pos": "D",
+"age": 36
+},
+{
+"first": "Ty",
+"last": "Emberson",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Shakir",
+"last": "Mukhamadullin",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Connor",
+"last": "Murphy",
+"pos": "D",
+"age": 33
+},
+{
+"first": "Ryan",
+"last": "Shea",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Jake",
+"last": "Walman",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Frederik",
+"last": "Andersen",
+"pos": "G",
+"age": 36
+},
+{
+"first": "Tristan",
+"last": "Jarry",
+"pos": "G",
+"age": 31
+},
+{
+"first": "Devon",
+"last": "Levi",
+"pos": "G",
+"age": 24
+}
+],
+"FLA": [
+{
+"first": "Aleksander",
+"last": "Barkov",
+"pos": "C",
+"age": 30
+},
+{
+"first": "John",
+"last": "Beecher",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Sam",
+"last": "Bennett",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Lars",
+"last": "Eller",
+"pos": "C",
+"age": 37
+},
+{
+"first": "Jonah",
+"last": "Gadjovich",
+"pos": "LW",
+"age": 27
+},
+{
+"first": "Garnet",
+"last": "Hathaway",
+"pos": "RW",
+"age": 34
+},
+{
+"first": "Sam",
+"last": "Lafferty",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Anton",
+"last": "Lundell",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Eetu",
+"last": "Luostarinen",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Brad",
+"last": "Marchand",
+"pos": "LW",
+"age": 38
+},
+{
+"first": "Cole",
+"last": "Reinhardt",
+"pos": "LW",
+"age": 26
+},
+{
+"first": "Sam",
+"last": "Reinhart",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Cole",
+"last": "Schwindt",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Brady",
+"last": "Tkachuk",
+"pos": "LW",
+"age": 26
+},
+{
+"first": "Matthew",
+"last": "Tkachuk",
+"pos": "LW",
+"age": 28
+},
+{
+"first": "Carter",
+"last": "Verhaeghe",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Uvis",
+"last": "Balinskis",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Aaron",
+"last": "Ekblad",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Gustav",
+"last": "Forsling",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Radko",
+"last": "Gudas",
+"pos": "D",
+"age": 36
+},
+{
+"first": "Seth",
+"last": "Jones",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Dmitry",
+"last": "Kulikov",
+"pos": "D",
+"age": 35
+},
+{
+"first": "Niko",
+"last": "Mikkola",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Alexander",
+"last": "Petrovic",
+"pos": "D",
+"age": 34
+},
+{
+"first": "Donovan",
+"last": "Sebrango",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Jacob",
+"last": "Markstrom",
+"pos": "G",
+"age": 36
+},
+{
+"first": "Akira",
+"last": "Schmid",
+"pos": "G",
+"age": 26
+}
+],
+"LAK": [
+{
+"first": "Joel",
+"last": "Armia",
+"pos": "RW",
+"age": 33
+},
+{
+"first": "Quinton",
+"last": "Byfield",
+"pos": "RW",
+"age": 23
+},
+{
+"first": "Kevin",
+"last": "Fiala",
+"pos": "LW",
+"age": 29
+},
+{
+"first": "Erik",
+"last": "Haula",
+"pos": "LW",
+"age": 35
+},
+{
+"first": "Samuel",
+"last": "Helenius",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Adrian",
+"last": "Kempe",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Alex",
+"last": "Laferriere",
+"pos": "RW",
+"age": 24
+},
+{
+"first": "Scott",
+"last": "Laughton",
+"pos": "C",
+"age": 32
+},
+{
+"first": "Trevor",
+"last": "Moore",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Artemi",
+"last": "Panarin",
+"pos": "LW",
+"age": 34
+},
+{
+"first": "Corey",
+"last": "Perry",
+"pos": "RW",
+"age": 41
+},
+{
+"first": "Alex",
+"last": "Turcotte",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Taylor",
+"last": "Ward",
+"pos": "RW",
+"age": 28
+},
+{
+"first": "Mats",
+"last": "Zuccarello",
+"pos": "C",
+"age": 38
+},
+{
+"first": "Mikey",
+"last": "Anderson",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Cody",
+"last": "Ceci",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Brandt",
+"last": "Clarke",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Drew",
+"last": "Doughty",
+"pos": "D",
+"age": 36
+},
+{
+"first": "Brian",
+"last": "Dumoulin",
+"pos": "D",
+"age": 34
+},
+{
+"first": "Joel",
+"last": "Edmundson",
+"pos": "D",
+"age": 33
+},
+{
+"first": "Erik",
+"last": "Gustafsson",
+"pos": "D",
+"age": 34
+},
+{
+"first": "Scott",
+"last": "Perunovich",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Anton",
+"last": "Forsberg",
+"pos": "G",
+"age": 33
+},
+{
+"first": "Darcy",
+"last": "Kuemper",
+"pos": "G",
+"age": 36
+}
+],
+"MIN": [
+{
+"first": "Matt",
+"last": "Boldy",
+"pos": "LW",
+"age": 25
+},
+{
+"first": "Bobby",
+"last": "Brink",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Blake",
+"last": "Coleman",
+"pos": "LW",
+"age": 34
+},
+{
+"first": "Joel",
+"last": "Eriksson Ek",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Marcus",
+"last": "Foligno",
+"pos": "LW",
+"age": 34
+},
+{
+"first": "Nick",
+"last": "Foligno",
+"pos": "LW",
+"age": 38
+},
+{
+"first": "Hunter",
+"last": "Haight",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Ryan",
+"last": "Hartman",
+"pos": "RW",
+"age": 31
+},
+{
+"first": "Kirill",
+"last": "Kaprizov",
+"pos": "LW",
+"age": 29
+},
+{
+"first": "Michael",
+"last": "McCarron",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Maksim",
+"last": "Shabanov",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Nico",
+"last": "Sturm",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Yakov",
+"last": "Trenin",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Danila",
+"last": "Yurov",
+"pos": "RW",
+"age": 22
+},
+{
+"first": "Zach",
+"last": "Bogosian",
+"pos": "D",
+"age": 36
+},
+{
+"first": "Jonas",
+"last": "Brodin",
+"pos": "D",
+"age": 33
+},
+{
+"first": "Brock",
+"last": "Faber",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Viking",
+"last": "Gustafsson Nyberg",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Quinn",
+"last": "Hughes",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Daemon",
+"last": "Hunt",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Matt",
+"last": "Kiersted",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Carson",
+"last": "Lambos",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Olli",
+"last": "Maatta",
+"pos": "D",
+"age": 31
+},
+{
+"first": "David",
+"last": "Spacek",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Jared",
+"last": "Spurgeon",
+"pos": "D",
+"age": 36
+},
+{
+"first": "Filip",
+"last": "Gustavsson",
+"pos": "G",
+"age": 28
+},
+{
+"first": "Riley",
+"last": "Mercer",
+"pos": "G",
+"age": 22
+},
+{
+"first": "Calvin",
+"last": "Pickard",
+"pos": "G",
+"age": 34
+},
+{
+"first": "Jesper",
+"last": "Wallstedt",
+"pos": "G",
+"age": 23
+},
+{
+"first": "Chase",
+"last": "Wutzke",
+"pos": "G",
+"age": 19
+}
+],
+"MTL": [
+{
+"first": "Josh",
+"last": "Anderson",
+"pos": "RW",
+"age": 32
+},
+{
+"first": "Owen",
+"last": "Beck",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Zachary",
+"last": "Bolduc",
+"pos": "RW",
+"age": 23
+},
+{
+"first": "Cole",
+"last": "Caufield",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Kirby",
+"last": "Dach",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Phillip",
+"last": "Danault",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Ivan",
+"last": "Demidov",
+"pos": "RW",
+"age": 20
+},
+{
+"first": "Jake",
+"last": "Evans",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Oliver",
+"last": "Kapanen",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Alex",
+"last": "Newhook",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Juraj",
+"last": "Slafkovsk\u00fd",
+"pos": "LW",
+"age": 22
+},
+{
+"first": "Nick",
+"last": "Suzuki",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Alexandre",
+"last": "Texier",
+"pos": "LW",
+"age": 26
+},
+{
+"first": "Florian",
+"last": "Xhekaj",
+"pos": "LW",
+"age": 22
+},
+{
+"first": "Alexandre",
+"last": "Carrier",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Noah",
+"last": "Dobson",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Adam",
+"last": "Engstrom",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Kaiden",
+"last": "Guhle",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Lane",
+"last": "Hutson",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Mike",
+"last": "Matheson",
+"pos": "D",
+"age": 32
+},
+{
+"first": "David",
+"last": "Reinbacher",
+"pos": "D",
+"age": 21
+},
+{
+"first": "Jayden",
+"last": "Struble",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Maksymilian",
+"last": "Szuber",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Arber",
+"last": "Xhekaj",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Jakub",
+"last": "Dobes",
+"pos": "G",
+"age": 25
+},
+{
+"first": "Jacob",
+"last": "Fowler",
+"pos": "G",
+"age": 21
+},
+{
+"first": "Samuel",
+"last": "Montembeault",
+"pos": "G",
+"age": 29
+}
+],
+"NJD": [
+{
+"first": "Nick",
+"last": "Bjugstad",
+"pos": "C",
+"age": 34
+},
+{
+"first": "Jesper",
+"last": "Boqvist",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Jesper",
+"last": "Bratt",
+"pos": "LW",
+"age": 27
+},
+{
+"first": "Connor",
+"last": "Brown",
+"pos": "RW",
+"age": 32
+},
+{
+"first": "Cody",
+"last": "Glass",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Arseny",
+"last": "Gritsyuk",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Nico",
+"last": "Hischier",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Jack",
+"last": "Hughes",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Anthony",
+"last": "Mantha",
+"pos": "RW",
+"age": 31
+},
+{
+"first": "Timo",
+"last": "Meier",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Dawson",
+"last": "Mercer",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Stefan",
+"last": "Noesen",
+"pos": "RW",
+"age": 33
+},
+{
+"first": "Evan",
+"last": "Rodrigues",
+"pos": "C",
+"age": 32
+},
+{
+"first": "Declan",
+"last": "Chisholm",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Brenden",
+"last": "Dillon",
+"pos": "D",
+"age": 35
+},
+{
+"first": "Dougie",
+"last": "Hamilton",
+"pos": "D",
+"age": 33
+},
+{
+"first": "Luke",
+"last": "Hughes",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Johnathan",
+"last": "Kovacevic",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Brett",
+"last": "Pesce",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Jonas",
+"last": "Siegenthaler",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Jake",
+"last": "Allen",
+"pos": "G",
+"age": 35
+},
+{
+"first": "David",
+"last": "Rittich",
+"pos": "G",
+"age": 33
+}
+],
+"NSH": [
+{
+"first": "Mavrik",
+"last": "Bourque",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Ross",
+"last": "Colton",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Jack",
+"last": "Drury",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Adam",
+"last": "Edstrom",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Luke",
+"last": "Evangelista",
+"pos": "RW",
+"age": 24
+},
+{
+"first": "Aiden",
+"last": "Fink",
+"pos": "RW",
+"age": 21
+},
+{
+"first": "Filip",
+"last": "Forsberg",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Nils",
+"last": "Hoglander",
+"pos": "LW",
+"age": 25
+},
+{
+"first": "Alexander",
+"last": "Kerfoot",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Jonathan",
+"last": "Marchessault",
+"pos": "C",
+"age": 35
+},
+{
+"first": "Ryan",
+"last": "O'Reilly",
+"pos": "C",
+"age": 35
+},
+{
+"first": "Steven",
+"last": "Stamkos",
+"pos": "C",
+"age": 36
+},
+{
+"first": "Ozzy",
+"last": "Wiesblatt",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Matthew",
+"last": "Wood",
+"pos": "RW",
+"age": 21
+},
+{
+"first": "Justin",
+"last": "Barron",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Nicolas",
+"last": "Hague",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Roman",
+"last": "Josi",
+"pos": "D",
+"age": 36
+},
+{
+"first": "Ilya",
+"last": "Lyubushkin",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Nick",
+"last": "Perbix",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Brady",
+"last": "Skjei",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Adam",
+"last": "Wilsby",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Justus",
+"last": "Annunen",
+"pos": "G",
+"age": 26
+},
+{
+"first": "Juuse",
+"last": "Saros",
+"pos": "G",
+"age": 31
+}
+],
+"NYI": [
+{
+"first": "Mathew",
+"last": "Barzal",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Casey",
+"last": "Cizikas",
+"pos": "C",
+"age": 35
+},
+{
+"first": "Anthony",
+"last": "Duclair",
+"pos": "LW",
+"age": 30
+},
+{
+"first": "Emil",
+"last": "Heineman",
+"pos": "LW",
+"age": 24
+},
+{
+"first": "Simon",
+"last": "Holmstrom",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Bo",
+"last": "Horvat",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Matias",
+"last": "Maccelli",
+"pos": "LW",
+"age": 25
+},
+{
+"first": "Kyle",
+"last": "MacLean",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Jean-Gabriel",
+"last": "Pageau",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Ondrej",
+"last": "Palat",
+"pos": "LW",
+"age": 35
+},
+{
+"first": "Kyle",
+"last": "Palmieri",
+"pos": "C",
+"age": 35
+},
+{
+"first": "Brayden",
+"last": "Schenn",
+"pos": "C",
+"age": 34
+},
+{
+"first": "Tony",
+"last": "DeAngelo",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Matthew",
+"last": "Kessel",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Scott",
+"last": "Mayfield",
+"pos": "D",
+"age": 33
+},
+{
+"first": "Adam",
+"last": "Pelech",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Ryan",
+"last": "Pulock",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Alexander",
+"last": "Romanov",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Matthew",
+"last": "Schaefer",
+"pos": "D",
+"age": 18
+},
+{
+"first": "Ilya",
+"last": "Sorokin",
+"pos": "G",
+"age": 30
+},
+{
+"first": "Vitek",
+"last": "Vanecek",
+"pos": "G",
+"age": 30
+},
+{
+"first": "Semyon",
+"last": "Varlamov",
+"pos": "G",
+"age": 38
+}
+],
+"NYR": [
+{
+"first": "Oliver",
+"last": "Bjorkstrand",
+"pos": "RW",
+"age": 31
+},
+{
+"first": "Jaroslav",
+"last": "Chmelar",
+"pos": "RW",
+"age": 22
+},
+{
+"first": "Will",
+"last": "Cuylle",
+"pos": "LW",
+"age": 24
+},
+{
+"first": "Pavel",
+"last": "Dorofeyev",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Tye",
+"last": "Kartye",
+"pos": "LW",
+"age": 25
+},
+{
+"first": "Noah",
+"last": "Laba",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Alexis",
+"last": "Lafreni\u00e8re",
+"pos": "LW",
+"age": 24
+},
+{
+"first": "J.T.",
+"last": "Miller",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Gabe",
+"last": "Perreault",
+"pos": "RW",
+"age": 21
+},
+{
+"first": "Taylor",
+"last": "Raddysh",
+"pos": "RW",
+"age": 28
+},
+{
+"first": "Matt",
+"last": "Rempe",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Adam",
+"last": "Sykora",
+"pos": "LW",
+"age": 21
+},
+{
+"first": "Joe",
+"last": "Veleno",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Mika",
+"last": "Zibanejad",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Sean",
+"last": "Durzi",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Drew",
+"last": "Fortescue",
+"pos": "D",
+"age": 21
+},
+{
+"first": "Adam",
+"last": "Fox",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Vladislav",
+"last": "Gavrikov",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Vincent",
+"last": "Iorio",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Marcus",
+"last": "Pettersson",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Matthew",
+"last": "Robertson",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Braden",
+"last": "Schneider",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Urho",
+"last": "Vaakanainen",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Dylan",
+"last": "Garand",
+"pos": "G",
+"age": 24
+},
+{
+"first": "Joonas",
+"last": "Korpisalo",
+"pos": "G",
+"age": 32
+},
+{
+"first": "Igor",
+"last": "Shesterkin",
+"pos": "G",
+"age": 30
+}
+],
+"OTT": [
+{
+"first": "Michael",
+"last": "Amadio",
+"pos": "RW",
+"age": 30
+},
+{
+"first": "Drake",
+"last": "Batherson",
+"pos": "RW",
+"age": 28
+},
+{
+"first": "Tyler",
+"last": "Boucher",
+"pos": "RW",
+"age": 23
+},
+{
+"first": "Andre",
+"last": "Burakovsky",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Nick",
+"last": "Cousins",
+"pos": "C",
+"age": 32
+},
+{
+"first": "Dylan",
+"last": "Cozens",
+"pos": "C",
+"age": 25
+},
+{
+"first": "William",
+"last": "Eklund",
+"pos": "LW",
+"age": 23
+},
+{
+"first": "Warren",
+"last": "Foegele",
+"pos": "LW",
+"age": 30
+},
+{
+"first": "Claude",
+"last": "Giroux",
+"pos": "RW",
+"age": 38
+},
+{
+"first": "Ridly",
+"last": "Greig",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Stephen",
+"last": "Halliday",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Hayden",
+"last": "Hodgson",
+"pos": "RW",
+"age": 30
+},
+{
+"first": "Kurtis",
+"last": "MacDermid",
+"pos": "LW",
+"age": 32
+},
+{
+"first": "Oskar",
+"last": "Pettersson",
+"pos": "RW",
+"age": 22
+},
+{
+"first": "Shane",
+"last": "Pinto",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Tim",
+"last": "St\u00fctzle",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Fabian",
+"last": "Zetterlund",
+"pos": "LW",
+"age": 26
+},
+{
+"first": "Thomas",
+"last": "Chabot",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Cameron",
+"last": "Crotty",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Tyler",
+"last": "Kleven",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Nikolas",
+"last": "Matinpalo",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Jake",
+"last": "Sanderson",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Jordan",
+"last": "Spence",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Carter",
+"last": "Yakemchuk",
+"pos": "D",
+"age": 20
+},
+{
+"first": "Artem",
+"last": "Zub",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Samuel",
+"last": "Ersson",
+"pos": "G",
+"age": 26
+},
+{
+"first": "Leevi",
+"last": "Meril\u00e4inen",
+"pos": "G",
+"age": 23
+},
+{
+"first": "Linus",
+"last": "Ullmark",
+"pos": "G",
+"age": 32
+}
+],
+"PHI": [
+{
+"first": "Noel",
+"last": "Acciari",
+"pos": "C",
+"age": 34
+},
+{
+"first": "Denver",
+"last": "Barkey",
+"pos": "C",
+"age": 21
+},
+{
+"first": "Alex",
+"last": "Bump",
+"pos": "LW",
+"age": 22
+},
+{
+"first": "Noah",
+"last": "Cates",
+"pos": "LW",
+"age": 27
+},
+{
+"first": "Sean",
+"last": "Couturier",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Christian",
+"last": "Dvorak",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Tyson",
+"last": "Foerster",
+"pos": "RW",
+"age": 24
+},
+{
+"first": "Jacob",
+"last": "Gaucher",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Nikita",
+"last": "Grebenkin",
+"pos": "RW",
+"age": 23
+},
+{
+"first": "Carl",
+"last": "Grundstrom",
+"pos": "RW",
+"age": 28
+},
+{
+"first": "Travis",
+"last": "Konecny",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Jett",
+"last": "Luchanko",
+"pos": "C",
+"age": 19
+},
+{
+"first": "Porter",
+"last": "Martone",
+"pos": "RW",
+"age": 19
+},
+{
+"first": "Matvei",
+"last": "Michkov",
+"pos": "RW",
+"age": 21
+},
+{
+"first": "Owen",
+"last": "Tippett",
+"pos": "RW",
+"age": 27
+},
+{
+"first": "Trevor",
+"last": "Zegras",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Simon",
+"last": "Benoit",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Oliver",
+"last": "Bonk",
+"pos": "D",
+"age": 21
+},
+{
+"first": "Jamie",
+"last": "Drysdale",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Helge",
+"last": "Grans",
+"pos": "D",
+"age": 24
+},
+{
+"first": "David",
+"last": "Jiricek",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Hunter",
+"last": "McDonald",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Rasmus",
+"last": "Ristolainen",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Travis",
+"last": "Sanheim",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Nick",
+"last": "Seeler",
+"pos": "D",
+"age": 33
+},
+{
+"first": "Cam",
+"last": "York",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Carson",
+"last": "Bjarnason",
+"pos": "G",
+"age": 21
+},
+{
+"first": "Aleksei",
+"last": "Kolosov",
+"pos": "G",
+"age": 24
+},
+{
+"first": "Dan",
+"last": "Vladar",
+"pos": "G",
+"age": 28
+},
+{
+"first": "Joseph",
+"last": "Woll",
+"pos": "G",
+"age": 28
+}
+],
+"PIT": [
+{
+"first": "Justin",
+"last": "Brazeau",
+"pos": "RW",
+"age": 28
+},
+{
+"first": "Egor",
+"last": "Chinakhov",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Sidney",
+"last": "Crosby",
+"pos": "C",
+"age": 38
+},
+{
+"first": "Connor",
+"last": "Dewar",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Ben",
+"last": "Kindel",
+"pos": "C",
+"age": 19
+},
+{
+"first": "Andrei",
+"last": "Kuzmenko",
+"pos": "LW",
+"age": 30
+},
+{
+"first": "Hendrix",
+"last": "Lapierre",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Blake",
+"last": "Lizotte",
+"pos": "C",
+"age": 28
+},
+{
+"first": "Evgeni",
+"last": "Malkin",
+"pos": "C",
+"age": 39
+},
+{
+"first": "Tommy",
+"last": "Novak",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Rickard",
+"last": "Rakell",
+"pos": "RW",
+"age": 33
+},
+{
+"first": "Nicholas",
+"last": "Robertson",
+"pos": "LW",
+"age": 24
+},
+{
+"first": "Bryan",
+"last": "Rust",
+"pos": "RW",
+"age": 34
+},
+{
+"first": "Elmer",
+"last": "Soderblom",
+"pos": "LW",
+"age": 25
+},
+{
+"first": "Declan",
+"last": "Carlile",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Samuel",
+"last": "Girard",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Ryan",
+"last": "Graves",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Erik",
+"last": "Karlsson",
+"pos": "D",
+"age": 36
+},
+{
+"first": "Kaedan",
+"last": "Korczak",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Kris",
+"last": "Letang",
+"pos": "D",
+"age": 39
+},
+{
+"first": "Trevor",
+"last": "van Riemsdyk",
+"pos": "D",
+"age": 34
+},
+{
+"first": "Sergei",
+"last": "Murashov",
+"pos": "G",
+"age": 22
+},
+{
+"first": "Arturs",
+"last": "Silovs",
+"pos": "G",
+"age": 25
+}
+],
+"SEA": [
+{
+"first": "Matty",
+"last": "Beniers",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Berkly",
+"last": "Catton",
+"pos": "C",
+"age": 20
+},
+{
+"first": "Jordan",
+"last": "Eberle",
+"pos": "RW",
+"age": 36
+},
+{
+"first": "Frederick",
+"last": "Gaudreau",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Kaapo",
+"last": "Kakko",
+"pos": "RW",
+"age": 25
+},
+{
+"first": "Jared",
+"last": "McCann",
+"pos": "LW",
+"age": 30
+},
+{
+"first": "Bobby",
+"last": "McMann",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Ben",
+"last": "Meyers",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Mackie",
+"last": "Samoskevich",
+"pos": "RW",
+"age": 23
+},
+{
+"first": "Chandler",
+"last": "Stephenson",
+"pos": "C",
+"age": 32
+},
+{
+"first": "Ryan",
+"last": "Winterton",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Shane",
+"last": "Wright",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Vince",
+"last": "Dunn",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Ryker",
+"last": "Evans",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Cale",
+"last": "Fleury",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Adam",
+"last": "Larsson",
+"pos": "D",
+"age": 33
+},
+{
+"first": "Ryan",
+"last": "Lindgren",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Joshua",
+"last": "Mahura",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Brandon",
+"last": "Montour",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Joey",
+"last": "Daccord",
+"pos": "G",
+"age": 29
+},
+{
+"first": "Philipp",
+"last": "Grubauer",
+"pos": "G",
+"age": 34
+}
+],
+"SJS": [
+{
+"first": "Macklin",
+"last": "Celebrini",
+"pos": "C",
+"age": 20
+},
+{
+"first": "Ty",
+"last": "Dellandrea",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Adam",
+"last": "Gaudette",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Barclay",
+"last": "Goodrow",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Collin",
+"last": "Graf",
+"pos": "RW",
+"age": 23
+},
+{
+"first": "Mason",
+"last": "Marchment",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Michael",
+"last": "Misa",
+"pos": "C",
+"age": 19
+},
+{
+"first": "Zack",
+"last": "Ostapchuk",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Kiefer",
+"last": "Sherwood",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Will",
+"last": "Smith",
+"pos": "C",
+"age": 21
+},
+{
+"first": "Tyler",
+"last": "Toffoli",
+"pos": "C",
+"age": 34
+},
+{
+"first": "Alexander",
+"last": "Wennberg",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Sam",
+"last": "Dickinson",
+"pos": "D",
+"age": 20
+},
+{
+"first": "Michael",
+"last": "Kesselring",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Darnell",
+"last": "Nurse",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Dmitry",
+"last": "Orlov",
+"pos": "D",
+"age": 34
+},
+{
+"first": "Jacob",
+"last": "Trouba",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Yaroslav",
+"last": "Askarov",
+"pos": "G",
+"age": 24
+},
+{
+"first": "Eric",
+"last": "Comrie",
+"pos": "G",
+"age": 31
+},
+{
+"first": "Alex",
+"last": "Nedeljkovic",
+"pos": "G",
+"age": 30
+}
+],
+"STL": [
+{
+"first": "Jonatan",
+"last": "Berggren",
+"pos": "RW",
+"age": 26
+},
+{
+"first": "Pavel",
+"last": "Buchnevich",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Dalibor",
+"last": "Dvorsky",
+"pos": "RW",
+"age": 21
+},
+{
+"first": "Jack",
+"last": "Finley",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Dylan",
+"last": "Holloway",
+"pos": "LW",
+"age": 24
+},
+{
+"first": "Ross",
+"last": "Johnston",
+"pos": "LW",
+"age": 32
+},
+{
+"first": "Connor",
+"last": "McMichael",
+"pos": "LW",
+"age": 25
+},
+{
+"first": "Mason",
+"last": "McTavish",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Jake",
+"last": "Neighbours",
+"pos": "LW",
+"age": 24
+},
+{
+"first": "Jimmy",
+"last": "Snuggerud",
+"pos": "RW",
+"age": 22
+},
+{
+"first": "Oskar",
+"last": "Sundqvist",
+"pos": "C",
+"age": 32
+},
+{
+"first": "Pius",
+"last": "Suter",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Robert",
+"last": "Thomas",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Alexey",
+"last": "Toropchenko",
+"pos": "RW",
+"age": 27
+},
+{
+"first": "Nathan",
+"last": "Walker",
+"pos": "LW",
+"age": 32
+},
+{
+"first": "Philip",
+"last": "Broberg",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Brandon",
+"last": "Carlo",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Cam",
+"last": "Fowler",
+"pos": "D",
+"age": 34
+},
+{
+"first": "Logan",
+"last": "Mailloux",
+"pos": "D",
+"age": 23
+},
+{
+"first": "Colton",
+"last": "Parayko",
+"pos": "D",
+"age": 33
+},
+{
+"first": "Tyler",
+"last": "Tucker",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Jordan",
+"last": "Binnington",
+"pos": "G",
+"age": 33
+},
+{
+"first": "Joel",
+"last": "Hofer",
+"pos": "G",
+"age": 25
+}
+],
+"TBL": [
+{
+"first": "Anthony",
+"last": "Cirelli",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Conor",
+"last": "Geekie",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Zemgus",
+"last": "Girgensons",
+"pos": "C",
+"age": 32
+},
+{
+"first": "Gage",
+"last": "Goncalves",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Yanni",
+"last": "Gourde",
+"pos": "C",
+"age": 34
+},
+{
+"first": "Jake",
+"last": "Guentzel",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Brandon",
+"last": "Hagel",
+"pos": "LW",
+"age": 27
+},
+{
+"first": "Jansen",
+"last": "Harkins",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Pontus",
+"last": "Holmberg",
+"pos": "RW",
+"age": 27
+},
+{
+"first": "Dominic",
+"last": "James",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Nikita",
+"last": "Kucherov",
+"pos": "RW",
+"age": 33
+},
+{
+"first": "Ilya",
+"last": "Mikheyev",
+"pos": "RW",
+"age": 31
+},
+{
+"first": "Brayden",
+"last": "Point",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Scott",
+"last": "Sabourin",
+"pos": "RW",
+"age": 33
+},
+{
+"first": "Jeffrey",
+"last": "Viel",
+"pos": "LW",
+"age": 29
+},
+{
+"first": "John",
+"last": "Carlson",
+"pos": "D",
+"age": 36
+},
+{
+"first": "Erik",
+"last": "Cernak",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Max",
+"last": "Crozier",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Charle-Edouard",
+"last": "D'Astous",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Victor",
+"last": "Hedman",
+"pos": "D",
+"age": 35
+},
+{
+"first": "Emil",
+"last": "Lilleberg",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Ryan",
+"last": "McDonagh",
+"pos": "D",
+"age": 37
+},
+{
+"first": "J.J.",
+"last": "Moser",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Dennis",
+"last": "Hildeby",
+"pos": "G",
+"age": 24
+},
+{
+"first": "Jonas",
+"last": "Johansson",
+"pos": "G",
+"age": 30
+},
+{
+"first": "Andrei",
+"last": "Vasilevskiy",
+"pos": "G",
+"age": 31
+}
+],
+"TOR": [
+{
+"first": "Teddy",
+"last": "Blueger",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Max",
+"last": "Domi",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Brandon",
+"last": "Duhaime",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Bo",
+"last": "Groulx",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Luke",
+"last": "Haymes",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Dakota",
+"last": "Joshua",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Matthew",
+"last": "Knies",
+"pos": "LW",
+"age": 23
+},
+{
+"first": "Steven",
+"last": "Lorentz",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Zack",
+"last": "MacEwen",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Auston",
+"last": "Matthews",
+"pos": "C",
+"age": 28
+},
+{
+"first": "William",
+"last": "Nylander",
+"pos": "RW",
+"age": 30
+},
+{
+"first": "Nick",
+"last": "Paul",
+"pos": "LW",
+"age": 31
+},
+{
+"first": "Jack",
+"last": "Roslovic",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Colton",
+"last": "Sissons",
+"pos": "C",
+"age": 32
+},
+{
+"first": "John",
+"last": "Tavares",
+"pos": "C",
+"age": 35
+},
+{
+"first": "Emil",
+"last": "Andrae",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Oliver",
+"last": "Ekman-Larsson",
+"pos": "D",
+"age": 35
+},
+{
+"first": "Jake",
+"last": "McCabe",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Philippe",
+"last": "Myers",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Darren",
+"last": "Raddysh",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Morgan",
+"last": "Rielly",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Troy",
+"last": "Stecher",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Chris",
+"last": "Tanev",
+"pos": "D",
+"age": 36
+},
+{
+"first": "Sergei",
+"last": "Bobrovsky",
+"pos": "G",
+"age": 37
+},
+{
+"first": "Anthony",
+"last": "Stolarz",
+"pos": "G",
+"age": 32
+}
+],
+"UTA": [
+{
+"first": "Daniil",
+"last": "But",
+"pos": "LW",
+"age": 21
+},
+{
+"first": "Michael",
+"last": "Carcone",
+"pos": "LW",
+"age": 30
+},
+{
+"first": "Logan",
+"last": "Cooley",
+"pos": "C",
+"age": 22
+},
+{
+"first": "Lawson",
+"last": "Crouse",
+"pos": "LW",
+"age": 29
+},
+{
+"first": "Dylan",
+"last": "Guenther",
+"pos": "RW",
+"age": 23
+},
+{
+"first": "Barrett",
+"last": "Hayton",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Cam",
+"last": "Hebig",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Clayton",
+"last": "Keller",
+"pos": "RW",
+"age": 27
+},
+{
+"first": "Anders",
+"last": "Lee",
+"pos": "C",
+"age": 36
+},
+{
+"first": "Jack",
+"last": "McBain",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Ben",
+"last": "McCartney",
+"pos": "LW",
+"age": 25
+},
+{
+"first": "Liam",
+"last": "O'Brien",
+"pos": "C",
+"age": 31
+},
+{
+"first": "Nick",
+"last": "Schmaltz",
+"pos": "C",
+"age": 30
+},
+{
+"first": "Kevin",
+"last": "Stenlund",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Brandon",
+"last": "Tanev",
+"pos": "LW",
+"age": 34
+},
+{
+"first": "Vincent",
+"last": "Trocheck",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Kailer",
+"last": "Yamamoto",
+"pos": "RW",
+"age": 27
+},
+{
+"first": "Nick",
+"last": "DeSimone",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Maveric",
+"last": "Lamoureux",
+"pos": "D",
+"age": 22
+},
+{
+"first": "John",
+"last": "Marino",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Andrew",
+"last": "Peeke",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Nate",
+"last": "Schmidt",
+"pos": "D",
+"age": 35
+},
+{
+"first": "Mikhail",
+"last": "Sergachev",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Dmitri",
+"last": "Simashev",
+"pos": "D",
+"age": 21
+},
+{
+"first": "MacKenzie",
+"last": "Weegar",
+"pos": "D",
+"age": 32
+},
+{
+"first": "Jaxson",
+"last": "Stauber",
+"pos": "G",
+"age": 27
+},
+{
+"first": "Karel",
+"last": "Vejmelka",
+"pos": "G",
+"age": 30
+}
+],
+"VAN": [
+{
+"first": "Brock",
+"last": "Boeser",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Filip",
+"last": "Chytil",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Paul",
+"last": "Cotter",
+"pos": "LW",
+"age": 26
+},
+{
+"first": "Jake",
+"last": "DeBrusk",
+"pos": "LW",
+"age": 29
+},
+{
+"first": "Brendan",
+"last": "Gallagher",
+"pos": "RW",
+"age": 34
+},
+{
+"first": "Linus",
+"last": "Karlsson",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Drew",
+"last": "O'Connor",
+"pos": "LW",
+"age": 28
+},
+{
+"first": "Liam",
+"last": "Ohgren",
+"pos": "LW",
+"age": 22
+},
+{
+"first": "Elias",
+"last": "Pettersson",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Aatu",
+"last": "R\u00e4ty",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Marco",
+"last": "Rossi",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Max",
+"last": "Sasson",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Zeev",
+"last": "Buium",
+"pos": "D",
+"age": 20
+},
+{
+"first": "Filip",
+"last": "Hronek",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Victor",
+"last": "Mancini",
+"pos": "D",
+"age": 24
+},
+{
+"first": "Jamie",
+"last": "Oleksiak",
+"pos": "D",
+"age": 33
+},
+{
+"first": "Elias",
+"last": "Pettersson",
+"pos": "D",
+"age": 22
+},
+{
+"first": "Luke",
+"last": "Schenn",
+"pos": "D",
+"age": 36
+},
+{
+"first": "Tom",
+"last": "Willander",
+"pos": "D",
+"age": 21
+},
+{
+"first": "Thatcher",
+"last": "Demko",
+"pos": "G",
+"age": 30
+},
+{
+"first": "Kevin",
+"last": "Lankinen",
+"pos": "G",
+"age": 31
+},
+{
+"first": "Nikita",
+"last": "Tolopilo",
+"pos": "G",
+"age": 26
+}
+],
+"VGK": [
+{
+"first": "Ivan",
+"last": "Barbashev",
+"pos": "LW",
+"age": 30
+},
+{
+"first": "Braeden",
+"last": "Bowman",
+"pos": "RW",
+"age": 23
+},
+{
+"first": "Trevor",
+"last": "Connelly",
+"pos": "LW",
+"age": 20
+},
+{
+"first": "Nic",
+"last": "Dowd",
+"pos": "C",
+"age": 36
+},
+{
+"first": "Jack",
+"last": "Eichel",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Marc",
+"last": "Gatcomb",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Tomas",
+"last": "Hertl",
+"pos": "C",
+"age": 32
+},
+{
+"first": "Alexander",
+"last": "Holtz",
+"pos": "RW",
+"age": 24
+},
+{
+"first": "Brett",
+"last": "Howden",
+"pos": "C",
+"age": 28
+},
+{
+"first": "William",
+"last": "Karlsson",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Tanner",
+"last": "Laczynski",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Raphael",
+"last": "Lavoie",
+"pos": "C",
+"age": 25
+},
+{
+"first": "Mitch",
+"last": "Marner",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Victor",
+"last": "Olofsson",
+"pos": "RW",
+"age": 31
+},
+{
+"first": "Jonas",
+"last": "Rondbjerg",
+"pos": "RW",
+"age": 27
+},
+{
+"first": "Mark",
+"last": "Stone",
+"pos": "RW",
+"age": 34
+},
+{
+"first": "Kai",
+"last": "Uchacz",
+"pos": "C",
+"age": 23
+},
+{
+"first": "Rasmus",
+"last": "Andersson",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Dylan",
+"last": "Coghlan",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Jeremy",
+"last": "Davies",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Noah",
+"last": "Hanifin",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Ville",
+"last": "Heinola",
+"pos": "D",
+"age": 25
+},
+{
+"first": "Jeremy",
+"last": "Lauzon",
+"pos": "D",
+"age": 29
+},
+{
+"first": "Brayden",
+"last": "McNabb",
+"pos": "D",
+"age": 35
+},
+{
+"first": "Jaycob",
+"last": "Megna",
+"pos": "D",
+"age": 33
+},
+{
+"first": "Shea",
+"last": "Theodore",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Parker",
+"last": "Wotherspoon",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Carter",
+"last": "Hart",
+"pos": "G",
+"age": 27
+},
+{
+"first": "Adin",
+"last": "Hill",
+"pos": "G",
+"age": 30
+},
+{
+"first": "Carl",
+"last": "Lindbom",
+"pos": "G",
+"age": 23
+}
+],
+"WPG": [
+{
+"first": "Morgan",
+"last": "Barron",
+"pos": "C",
+"age": 27
+},
+{
+"first": "Nikita",
+"last": "Chibrikov",
+"pos": "RW",
+"age": 23
+},
+{
+"first": "Kyle",
+"last": "Connor",
+"pos": "LW",
+"age": 29
+},
+{
+"first": "Alex",
+"last": "Iafallo",
+"pos": "LW",
+"age": 32
+},
+{
+"first": "Cole",
+"last": "Koepke",
+"pos": "LW",
+"age": 28
+},
+{
+"first": "Adam",
+"last": "Lowry",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Vladislav",
+"last": "Namestnikov",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Nino",
+"last": "Niederreiter",
+"pos": "RW",
+"age": 33
+},
+{
+"first": "Cole",
+"last": "Perfetti",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Isak",
+"last": "Rosen",
+"pos": "RW",
+"age": 23
+},
+{
+"first": "Mark",
+"last": "Scheifele",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Gabriel",
+"last": "Vilardi",
+"pos": "C",
+"age": 26
+},
+{
+"first": "Dylan",
+"last": "DeMelo",
+"pos": "D",
+"age": 33
+},
+{
+"first": "Mario",
+"last": "Ferraro",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Haydn",
+"last": "Fleury",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Josh",
+"last": "Morrissey",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Neal",
+"last": "Pionk",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Dylan",
+"last": "Samberg",
+"pos": "D",
+"age": 27
+},
+{
+"first": "John",
+"last": "St. Ivany",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Connor",
+"last": "Hellebuyck",
+"pos": "G",
+"age": 33
+},
+{
+"first": "Stuart",
+"last": "Skinner",
+"pos": "G",
+"age": 27
+}
+],
+"WSH": [
+{
+"first": "Anthony",
+"last": "Beauvillier",
+"pos": "RW",
+"age": 29
+},
+{
+"first": "Pierre-Luc",
+"last": "Dubois",
+"pos": "C",
+"age": 28
+},
+{
+"first": "Ethen",
+"last": "Frank",
+"pos": "RW",
+"age": 28
+},
+{
+"first": "Boone",
+"last": "Jenner",
+"pos": "C",
+"age": 33
+},
+{
+"first": "Jordan",
+"last": "Kyrou",
+"pos": "RW",
+"age": 28
+},
+{
+"first": "Ryan",
+"last": "Leonard",
+"pos": "RW",
+"age": 21
+},
+{
+"first": "Ivan",
+"last": "Miroshnichenko",
+"pos": "LW",
+"age": 22
+},
+{
+"first": "Alex",
+"last": "Ovechkin",
+"pos": "LW",
+"age": 40
+},
+{
+"first": "Aliaksei",
+"last": "Protas",
+"pos": "LW",
+"age": 25
+},
+{
+"first": "Ilya",
+"last": "Protas",
+"pos": "LW",
+"age": 20
+},
+{
+"first": "Justin",
+"last": "Sourdif",
+"pos": "C",
+"age": 24
+},
+{
+"first": "Dylan",
+"last": "Strome",
+"pos": "C",
+"age": 29
+},
+{
+"first": "Alex",
+"last": "Tuch",
+"pos": "RW",
+"age": 30
+},
+{
+"first": "Tom",
+"last": "Wilson",
+"pos": "RW",
+"age": 32
+},
+{
+"first": "Jakob",
+"last": "Chychrun",
+"pos": "D",
+"age": 28
+},
+{
+"first": "Vincent",
+"last": "Desharnais",
+"pos": "D",
+"age": 30
+},
+{
+"first": "Martin",
+"last": "Feh\u00e9rv\u00e1ry",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Cole",
+"last": "Hutson",
+"pos": "D",
+"age": 20
+},
+{
+"first": "Timothy",
+"last": "Liljegren",
+"pos": "D",
+"age": 27
+},
+{
+"first": "Dylan",
+"last": "McIlrath",
+"pos": "D",
+"age": 34
+},
+{
+"first": "Matt",
+"last": "Roy",
+"pos": "D",
+"age": 31
+},
+{
+"first": "Rasmus",
+"last": "Sandin",
+"pos": "D",
+"age": 26
+},
+{
+"first": "Charlie",
+"last": "Lindgren",
+"pos": "G",
+"age": 32
+},
+{
+"first": "Clay",
+"last": "Stevenson",
+"pos": "G",
+"age": 27
+},
+{
+"first": "Logan",
+"last": "Thompson",
+"pos": "G",
+"age": 29
+}
+]
+}

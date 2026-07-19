@@ -82,43 +82,55 @@ export default function GameCenter() {
         </div>
       </div>
 
-      <div className="gc-controls">
-        <button className="btn" onClick={() => setPlaying((p) => !p)} disabled={isDone}>
-          {playing ? 'Pause' : isDone ? 'Finished' : 'Play Recap ▶'}
-        </button>
-        <button className="btn btn-ghost" onClick={() => setRevealed(result.events.length)}>Skip to End</button>
-        <button className="btn btn-ghost" onClick={() => setRevealed(0)}>Restart</button>
-      </div>
+      {result.events.length > 0 && (
+        <div className="gc-controls">
+          <button className="btn" onClick={() => setPlaying((p) => !p)} disabled={isDone}>
+            {playing ? 'Pause' : isDone ? 'Finished' : 'Play Recap ▶'}
+          </button>
+          <button className="btn btn-ghost" onClick={() => setRevealed(result.events.length)}>Skip to End</button>
+          <button className="btn btn-ghost" onClick={() => setRevealed(0)}>Restart</button>
+        </div>
+      )}
 
       <div className="gc-body">
         <div className="card pbp-feed">
           <h3>Play-by-Play</h3>
-          <ul className="pbp-list">
-            {events.slice().reverse().map((e, i) => (
-              <li key={i} className={`pbp-${e.type}`}>
-                <span className="pbp-time">P{e.period > 3 ? 'OT' : e.period} {e.time}</span>
-                <span>{e.text}</span>
-              </li>
-            ))}
-          </ul>
+          {result.events.length === 0 ? (
+            <p className="muted">Play-by-play for this game is no longer available — it's an older result. Final score and box score are still tracked below.</p>
+          ) : (
+            <ul className="pbp-list">
+              {events.slice().reverse().map((e, i) => (
+                <li key={i} className={`pbp-${e.type}`}>
+                  <span className="pbp-time">P{e.period > 3 ? 'OT' : e.period} {e.time}</span>
+                  <span>{e.text}</span>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
 
         <div className="card">
           <h3>Box Score</h3>
-          <h4>{away.abbr}</h4>
-          <ul className="box-list">
-            {boxFor(result.awayBox).map((b) => (
-              <li key={b.playerId}>{fullName(league.players[b.playerId])} — {b.g}G {b.a}A</li>
-            ))}
-            {boxFor(result.awayBox).length === 0 && <li className="muted">No points recorded.</li>}
-          </ul>
-          <h4>{home.abbr}</h4>
-          <ul className="box-list">
-            {boxFor(result.homeBox).map((b) => (
-              <li key={b.playerId}>{fullName(league.players[b.playerId])} — {b.g}G {b.a}A</li>
-            ))}
-            {boxFor(result.homeBox).length === 0 && <li className="muted">No points recorded.</li>}
-          </ul>
+          {result.homeBox.length === 0 && result.awayBox.length === 0 ? (
+            <p className="muted">Box score for this game is no longer available — it's an older result.</p>
+          ) : (
+            <>
+              <h4>{away.abbr}</h4>
+              <ul className="box-list">
+                {boxFor(result.awayBox).map((b) => (
+                  <li key={b.playerId}>{fullName(league.players[b.playerId])} — {b.g}G {b.a}A</li>
+                ))}
+                {boxFor(result.awayBox).length === 0 && <li className="muted">No points recorded.</li>}
+              </ul>
+              <h4>{home.abbr}</h4>
+              <ul className="box-list">
+                {boxFor(result.homeBox).map((b) => (
+                  <li key={b.playerId}>{fullName(league.players[b.playerId])} — {b.g}G {b.a}A</li>
+                ))}
+                {boxFor(result.homeBox).length === 0 && <li className="muted">No points recorded.</li>}
+              </ul>
+            </>
+          )}
         </div>
       </div>
       {(home.id === userTeam.id || away.id === userTeam.id) && <div className="muted">Your team played in this game.</div>}

@@ -107,8 +107,27 @@ export function applyGameResult(
 
   game.played = true;
   game.result = result;
-  league.lastGameLog = result;
-  league.lastGameTeams = { home: home.id, away: away.id };
+}
+
+// Full play-by-play text logs (and, further back, per-player box score
+// lines) are the dominant contributor to save size — with a 32-team,
+// ~1000-game season, keeping every game's detail around blows past the
+// browser's localStorage quota. Season/career stats are already aggregated
+// onto each Player, so only the Game Center recap view needs this detail,
+// and only for recently played games.
+export function trimOldPlayByPlay(league: League, keepDayWindow = 2, keepBoxWindow = 10) {
+  const eventsCutoff = league.day - keepDayWindow;
+  const boxCutoff = league.day - keepBoxWindow;
+  league.schedule.forEach((g) => {
+    if (!g.played || !g.result) return;
+    if (g.day < eventsCutoff && g.result.events.length > 0) {
+      g.result.events = [];
+    }
+    if (g.day < boxCutoff && (g.result.homeBox.length > 0 || g.result.awayBox.length > 0)) {
+      g.result.homeBox = [];
+      g.result.awayBox = [];
+    }
+  });
 }
 
 function injuryDescription(rng: RNG): string {

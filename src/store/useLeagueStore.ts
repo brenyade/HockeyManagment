@@ -4,13 +4,14 @@ import type { League, Lines, Player, Team } from '../types';
 import { generateLeague, autoAssignLines } from '../engine/generate';
 import { generateSchedule } from '../engine/schedule';
 import { simulateGame } from '../engine/simulate';
-import { applyGameResult, restDay } from '../engine/applyResult';
+import { applyGameResult, restDay, trimOldPlayByPlay } from '../engine/applyResult';
 import { initializePlayoffs, ensurePendingPlayoffGame, recordSeriesGame, advanceBracketIfReady } from '../engine/playoffs';
 import {
   processOffseason, beginDraft, autoDraftPick, performDraftPick, isUsersTurnToDraft,
   finishDraftAndStartSeason,
 } from '../engine/offseason';
 import type { RNG } from '../engine/rng';
+import { MAX_ROSTER_SIZE } from '../engine/constants';
 
 const rng: RNG = Math.random;
 
@@ -97,6 +98,7 @@ export const useLeagueStore = create<LeagueStore>()(
             if (remaining.length === 0) {
               initializePlayoffs(league);
             }
+            trimOldPlayByPlay(league);
           }
         } else if (league.phase === 'playoffs') {
           const active = league.playoffSeries.filter((s) => !s.complete);
@@ -113,6 +115,7 @@ export const useLeagueStore = create<LeagueStore>()(
             simulatedGameIds.push(game.id);
           });
           restDay(league);
+          trimOldPlayByPlay(league);
           advanceBracketIfReady(league);
           if (String(league.phase) === 'offseason') {
             processOffseason(league, rng);
@@ -191,7 +194,7 @@ export const useLeagueStore = create<LeagueStore>()(
           if (!state.league) return state;
           const league: League = structuredClone(state.league);
           const team = league.teams.find((t: Team) => t.id === league.userTeamId)!;
-          if (team.roster.length >= 23) return { league: state.league };
+          if (team.roster.length >= MAX_ROSTER_SIZE) return { league: state.league };
           league.freeAgents = league.freeAgents.filter((id) => id !== playerId);
           team.roster.push(playerId);
           const p = league.players[playerId];

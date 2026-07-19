@@ -188,7 +188,5 @@ export interface League {
   draftOrder: string[];
   draftPickIndex: number;
   champions: { season: number; teamId: string }[];
-  lastGameLog: GameResult | null;
-  lastGameTeams: { home: string; away: string } | null;
   news: string[];
 }

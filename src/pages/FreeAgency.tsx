@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useLeagueStore } from '../store/useLeagueStore';
 import { fullName, salaryFmt } from '../utils/format';
+import { MAX_ROSTER_SIZE } from '../engine/constants';
 import type { Position } from '../types';
 
 export default function FreeAgency() {
@@ -19,7 +20,7 @@ export default function FreeAgency() {
     <div className="page">
       <div className="page-header">
         <h1>Free Agency</h1>
-        <div className="muted">{userTeam.roster.length}/23 roster spots used</div>
+        <div className="muted">{userTeam.roster.length}/{MAX_ROSTER_SIZE} roster spots used</div>
       </div>
       <div className="sort-bar">
         {(['ALL', 'C', 'LW', 'RW', 'D', 'G'] as (Position | 'ALL')[]).map((p) => (
@@ -40,7 +41,7 @@ export default function FreeAgency() {
                 <td>
                   <button
                     className="btn btn-small"
-                    disabled={userTeam.roster.length >= 23}
+                    disabled={userTeam.roster.length >= MAX_ROSTER_SIZE}
                     onClick={() => signFreeAgent(p.id)}
                   >
                     Sign

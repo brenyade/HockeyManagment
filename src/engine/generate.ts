@@ -1,6 +1,9 @@
 import type { RNG } from './rng';
 import { randInt, clamp, gaussian } from './rng';
-import { randomName, CITIES, TEAM_NICKNAMES, TEAM_COLORS } from '../data/names';
+import { randomName } from '../data/names';
+import { NHL_TEAMS } from '../data/nhlTeams';
+import { STAR_TALENT } from '../data/starPlayers';
+import nhlRosters from '../data/nhlRosters.json';
 import type {
   Player, Team, League, Position, Attributes, Lines, TeamRecord, SkaterStats, GoalieStats,
 } from '../types';
@@ -38,11 +41,16 @@ interface GenPlayerOpts {
   ageMax: number;
   talentTier: number; // 0-1, higher = better league-wide talent baseline
   rookie?: boolean;
+  firstName?: string;
+  lastName?: string;
+  age?: number;
 }
 
 export function generatePlayer(rng: RNG, opts: GenPlayerOpts): Player {
-  const { firstName, lastName } = randomName(rng);
-  const age = randInt(rng, opts.ageMin, opts.ageMax);
+  const generated = randomName(rng);
+  const firstName = opts.firstName ?? generated.firstName;
+  const lastName = opts.lastName ?? generated.lastName;
+  const age = opts.age ?? randInt(rng, opts.ageMin, opts.ageMax);
   const baseline = 45 + opts.talentTier * 35; // 45-80 baseline center
   const spread = 14;
 
@@ -117,11 +125,6 @@ export function generatePlayer(rng: RNG, opts: GenPlayerOpts): Player {
   };
 }
 
-const ROSTER_POSITIONS: Position[] = [
-  'C', 'C', 'C', 'C', 'LW', 'LW', 'LW', 'LW', 'RW', 'RW', 'RW', 'RW',
-  'D', 'D', 'D', 'D', 'D', 'D', 'G', 'G',
-];
-
 function emptyLines(): Lines {
   return {
     forwards: [
@@ -171,40 +174,64 @@ function emptyRecord(): TeamRecord {
   return { wins: 0, losses: 0, otLosses: 0, points: 0, goalsFor: 0, goalsAgainst: 0, streak: '' };
 }
 
-export function generateTeam(
-  rng: RNG,
-  players: Record<string, Player>,
-  city: string,
-  nickname: string,
-  colors: [string, string],
-  conference: 'East' | 'West',
-  talentTier: number,
-): Team {
+interface RealRosterEntry {
+  first: string;
+  last: string;
+  pos: Position;
+  age: number;
+}
+
+const NHL_ROSTERS = nhlRosters as Record<string, RealRosterEntry[]>;
+
+/** Builds one real-world NHL team, populated with its actual current roster. */
+export function buildRealTeam(rng: RNG, players: Record<string, Player>, abbr: string): Team {
+  const meta = NHL_TEAMS.find((t) => t.abbr === abbr)!;
+  const entries = NHL_ROSTERS[abbr] ?? [];
+  const talentTier = randInt(rng, 45, 65) / 100;
+
   const roster: string[] = [];
-  for (const pos of ROSTER_POSITIONS) {
-    const ageMin = pos === 'G' ? 20 : 18;
+  entries.forEach((entry) => {
+    const fullName = `${entry.first} ${entry.last}`;
+    const starTier = STAR_TALENT[fullName];
     const player = generatePlayer(rng, {
-      position: pos,
-      ageMin,
-      ageMax: 36,
-      talentTier: clamp(talentTier + (rng() - 0.5) * 0.3, 0.1, 0.95),
+      position: entry.pos,
+      ageMin: entry.age,
+      ageMax: entry.age,
+      age: entry.age,
+      firstName: entry.first,
+      lastName: entry.last,
+      talentTier: starTier ?? clamp(talentTier + (rng() - 0.5) * 0.3, 0.1, 0.9),
     });
     players[player.id] = player;
     roster.push(player.id);
+  });
+
+  // Every NHL club needs at least two netminders to run a starter/backup
+  // rotation; a handful of rosters only list one signed goalie mid-offseason.
+  const goalieCount = entries.filter((e) => e.pos === 'G').length;
+  for (let i = goalieCount; i < 2; i++) {
+    const backup = generatePlayer(rng, {
+      position: 'G',
+      ageMin: 21,
+      ageMax: 30,
+      talentTier: clamp(talentTier - 0.1, 0.1, 0.7),
+    });
+    players[backup.id] = backup;
+    roster.push(backup.id);
   }
 
   const team: Team = {
     id: nextId('t'),
-    city,
-    name: nickname,
-    abbr: (city.slice(0, 1) + nickname.slice(0, 2)).toUpperCase(),
-    color: colors[0],
-    colorSecondary: colors[1],
+    city: meta.city,
+    name: meta.name,
+    abbr: meta.abbr,
+    color: meta.color,
+    colorSecondary: meta.colorSecondary,
     roster,
     lines: emptyLines(),
     record: emptyRecord(),
     isUser: false,
-    conference,
+    conference: meta.conference,
   };
   autoAssignLines(team, players);
   return team;
@@ -213,27 +240,9 @@ export function generateTeam(
 export function generateLeague(rng: RNG, leagueName: string): League {
   idCounter = 0;
   const players: Record<string, Player> = {};
-  const teams: Team[] = [];
-  const cityOrder = [...CITIES];
-  const nickOrder = [...TEAM_NICKNAMES];
-  const numTeams = 16;
+  const teams: Team[] = NHL_TEAMS.map((meta) => buildRealTeam(rng, players, meta.abbr));
 
-  for (let i = 0; i < numTeams; i++) {
-    const conference: 'East' | 'West' = i % 2 === 0 ? 'East' : 'West';
-    const talentTier = randInt(rng, 30, 70) / 100;
-    const team = generateTeam(
-      rng,
-      players,
-      cityOrder[i % cityOrder.length],
-      nickOrder[i % nickOrder.length],
-      TEAM_COLORS[i % TEAM_COLORS.length],
-      conference,
-      talentTier,
-    );
-    teams.push(team);
-  }
-
-  const draftClass = generateDraftClass(rng, players, 40);
+  const draftClass = generateDraftClass(rng, players, teams.length * 2 + 10);
 
   return {
     id: nextId('lg'),
@@ -251,8 +260,6 @@ export function generateLeague(rng: RNG, leagueName: string): League {
     draftOrder: [],
     draftPickIndex: 0,
     champions: [],
-    lastGameLog: null,
-    lastGameTeams: null,
     news: [],
   };
 }

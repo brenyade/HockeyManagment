@@ -115,7 +115,7 @@ export function beginDraft(league: League, rng: RNG) {
   const order = [...league.teams].sort((a, b) => a.record.points - b.record.points).map((t) => t.id);
   league.draftOrder = [...order, ...order]; // 2 rounds
   league.draftPickIndex = 0;
-  league.draftClass = generateDraftClass(rng, league.players, 40);
+  league.draftClass = generateDraftClass(rng, league.players, league.draftOrder.length + 10);
   league.phase = 'draft';
   league.news.unshift(`The ${league.season + 1} Entry Draft is underway. Draft order set by reverse standings.`);
 }
